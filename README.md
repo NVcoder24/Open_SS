@@ -1,6 +1,14 @@
 # Open_SS
 a program that makes screenshotes (open source)
 
+## libraries (PIP)
+```
+pip install Pillow
+pip install pyautogui
+pip install pynput
+pip install numpy
+```
+
 ###### config file
 ```python
 from pynput.keyboard import Key
