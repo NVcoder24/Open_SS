@@ -21,5 +21,6 @@ config = {
     "ss_btn":Key.scroll_lock,            # for example Key.scroll_lock
     "key_debug":False,                   # keys debugging
     "show_image":False,                  # show screenshot after taking it
+    "open_folder":True,                  # open folder with screenshot after taking it
 }
 ```
