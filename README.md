@@ -10,7 +10,7 @@ pip install pynput
 pip install numpy
 ```
 
-###### config file
+## config file
 ```python
 from pynput.keyboard import Key
 
