@@ -1,4 +1,5 @@
 # Open_SS
+Open ScreenShoter<br>
 a program that makes screenshotes (open source)
 
 ## libraries (PIP)
