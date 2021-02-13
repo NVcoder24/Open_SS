@@ -12,6 +12,11 @@ while(True):
     pos1 = None
     pos2 = None
 
+    # open folder with screenshot
+    def open_dir():
+        if config["open_folder"] == True:
+            os.startfile(os.path.dirname(os.path.abspath(__file__)))
+
     def get_file_name():
         path = os.path.dirname(os.path.abspath(__file__))
         file_base = config["base_file_name"]
@@ -54,6 +59,7 @@ while(True):
 
         # save and opening image
         image.save(get_file_name())
+        open_dir()
         if config["show_image"] == True:
             Thread(target=image.show).start()  # opening image in new thread
 
@@ -100,6 +106,7 @@ while(True):
 
         # save and opening image
         cropped_image.save(get_file_name())
+        open_dir()
         if config["show_image"] == True:
             Thread(target=cropped_image.show).start()  # opening image in new thread
 
