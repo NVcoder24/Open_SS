@@ -100,7 +100,7 @@ while(True):
         # takes screenshot
         image = take_ss()
 
-        # cut image (stackoverflow)
+        # cut image
         crop_rectangle = (pos1_, pos1__, pos2_, pos2__)
         cropped_image = image.crop(crop_rectangle)
 
